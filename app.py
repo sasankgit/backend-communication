@@ -7,7 +7,7 @@ def check():
     data = request.get_json()
 
     if data and data.get("message") == "is it working?":
-        return jsonify({"response":"hello this is working"})
+        return jsonify({"response":"hello this is working 3"})
     else:
         return jsonify({"response": "this is not right message"}),400
     
